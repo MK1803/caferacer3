@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState } from 'react'
 import cart from '../assets/icons/cart.svg'
 import close from '../assets/icons/xmark-solid.svg'
 import { Swiper, SwiperSlide } from "swiper/react";
