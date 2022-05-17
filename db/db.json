@@ -1,0 +1,294 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Dragonhide Black Leather Jacket",
+            "price": 80,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/br1.jpg",
+            "image2": "../img/jackets/br2.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Genuine Leather Jackets",
+            "price": 120,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/brown1.jpg",
+            "image2": "../img/jackets/brown2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Leather Bomber Jacket",
+            "price": 109,
+            "description": "This leather biker jacket epitomises comfortable yet stylish casual attire.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/bomber1.png",
+            "image2": "../img/jackets/bomber2.png"
+        },
+        {
+            "id": 4,
+            "title": "Blouson Jacket",
+            "price": 139,
+            "description": "This leather biker jacket epitomises comfortable yet stylish casual attire.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/Blouson-Jacket1.jpg",
+            "image2": "../img/jackets/Blouson-Jacket2.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Gamy Jacket",
+            "price": 139,
+            "description": "Hit the road running in this great classic design in a beautiful classy blouson leather.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/Gamy1.jpg",
+            "image2": "../img/jackets/Gamy2.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Camel Blouson",
+            "price": 139,
+            "description": "Hit the road running in this great classic design in a beautiful classy blouson leather.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/Camel1.jpg",
+            "image2": "../img/jackets/Camel2.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Albert White Shearling",
+            "price": 139,
+            "description": "This leather biker jacket epitomises comfortable yet stylish casual attire.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/albert1.jpg",
+            "image2": "../img/jackets/albert2.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Heny Brown Bomber",
+            "price": 139,
+            "description": "This leather bomber jacket epitomises comfortable yet stylish casual attire.",
+            "category": "jackets",
+            "count": 1,
+            "image": "../img/jackets/henry1.jpg",
+            "image2": "../img/jackets/henry2.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Bell Broozer Helmet",
+            "price": 259,
+            "description": "Bell's Broozer Helmet is a real contender that can switch stances from full face to open face.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/helmetMatteblack1.jpg",
+            "image2": "../img/helmets/helmetMatteblack2.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Sena Outrush Bluetooth Helmet",
+            "price": 229,
+            "description": "The Sena Outrush Modular Helmet is the perfect helmet for doing 9 to 5 Monday through Friday then going out on an adventure on the weekend. This helme…",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/SenaOutrush1.jpg",
+            "image2": "../img/helmets/SenaOutrush2.jpg"
+        },
+        {
+            "id": 11,
+            "title": "HJC IS-5 Helmet",
+            "price": 119,
+            "description": "Old school style meets modern convenience.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/HJC1.jpg",
+            "image2": "../img/helmets/HJC2.jpg"
+        },
+        {
+            "id": 12,
+            "title": "LS2 Spitfire Bombrider Helmet",
+            "price": 119,
+            "description": "The Spitfire is a modern take on the classic bobber helmet.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/bombrider2.jpg",
+            "image2": "../img/helmets/bombrider1.jpg"
+        },
+        {
+            "id": 13,
+            "title": "Shark S-Drak Carbon Helmet",
+            "price": 369,
+            "description": "Carbon fiber shell, check. Internal visor, check. Redesigned face mask, check. Badass through and through?",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/shark1.jpg",
+            "image2": "../img/helmets/shark2.jpg"
+        },
+        {
+            "id": 14,
+            "title": "Simpson M30 Bandit Carbon Helmet",
+            "price": 549,
+            "description": "The Model 30 Bandit Carbon Helmet has been around longer than many riders. It blends classic moto style with modern technology and materials.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/simpson1.jpg",
+            "image2": "../img/helmets/simpson2.jpg"
+        },
+        {
+            "id": 15,
+            "title": "AGV X3000 Superba Helmet",
+            "price": 449,
+            "description": "Just like your retro ride, the AGV X3000 packs modern features and performance into a classically styled package.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/agvx3000_1.jpg",
+            "image2": "../img/helmets/agvx3000_2.jpg"
+        },
+        {
+            "id": 16,
+            "title": "Shoei J·O Helmet - Solid",
+            "price": 379,
+            "description": "When Shoei makes a helmet they're not kidding around. The J·O Helmet has all the Shoei fit and finish wrapped up in a retro-inspired 3/4 shell.",
+            "category": "helmets",
+            "count": 1,
+            "image": "../img/helmets/shoei1.jpg",
+            "image2": "../img/helmets/shoei2.jpg"
+        },
+        {
+            "id": 17,
+            "title": "REV'IT! Airwave 3 Pants",
+            "price": 209,
+            "description": "Heavy duty mesh flows air while robust fabric textile resists abrasion. The Airwave 3 Pants keep you cool in the hot summer.",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/revit_airwave3_pants1.jpg",
+            "image2": "../img/pants/revit_airwave3_pants2.jpg"
+        },
+        {
+            "id": 18,
+            "title": "Joe Rocket Phoenix Ion Pants",
+            "price": 169,
+            "description": "Riding in the heat is not fun when you're trapped in heavy leather or denim. Air yourself out with a pair of Phoenix Ion Pants with mesh shell.",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/joe_rocket_1.jpg",
+            "image2": "../img/pants/joe_rocket_2.jpg"
+        },
+        {
+            "id": 19,
+            "title": "Alpinestars Raider v2 Drystar Pants",
+            "price": 289,
+            "description": "The Raider v2 Drystar Pants from Alpinestars are an extremely versatile pant that comfortably takes riders into a wide variety of riding conditions and seasons. Using Alpinestars' proprietary Drystar technology, the Raider v2 Pants are both waterproof and breathable. Multi-weight materials used throughout the outer textile shell guarantee a balance of abrasion resistance, mobility and reduced weight.",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/alpinestars_1.jpg",
+            "image2": "../img/pants/alpinestars_2.jpg"
+        },
+        {
+            "id": 20,
+            "title": "Rukka StretchAir Pants",
+            "price": 449,
+            "description": "Looks can be deceiving. Cordura AFT looks like a solid abrasion resistant textile, but it flows air for extreme ventilation. ",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/rukka1.jpg",
+            "image2": "../img/pants/rukka2.jpg"
+        },
+        {
+            "id": 21,
+            "title": "REV'IT! Factor 4 Pants",
+            "price": 249,
+            "description": "The Factor 4 pants cover all the basics to keep cold wet weather from ruining your ride.",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/revit1.jpg",
+            "image2": "../img/pants/revit2.jpg"
+        },
+        {
+            "id": 22,
+            "title": "REAX 610 Jeans Black",
+            "price": 179,
+            "description": "With a slim cut that could easily pass for your favorite pal-around pair, the 610s are dutifully disguising some serious CE Level riding security. ",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/reax610_jeans1.jpg",
+            "image2": "../img/pants/reax610_jeans2.jpg"
+        },
+        {
+            "id": 23,
+            "title": "REAX 610 Jeans Blue",
+            "price": 179,
+            "description": "With a slim cut that could easily pass for your favorite pal-around pair, the 610s are dutifully disguising some serious CE Level riding security. ",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/reax610_jeans3.jpg",
+            "image2": "../img/pants/reax610_jeans4.jpg"
+        },
+        {
+            "id": 24,
+            "title": "REAX 215 Jeans",
+            "price": 179,
+            "description": "The 215s pack aramid abrasion protection and optional D3O impact armor into an effortlessly laid-back cut with a distressed dark indigo finish. ",
+            "category": "pants",
+            "count": 1,
+            "image": "../img/pants/reax_reax215_jeans1.jpg",
+            "image2": "../img/pants/reax_reax215_jeans2.jpg"
+        }
+    ],
+    "gallery":[
+        {
+            "id":1,
+            "image":"../img/gallery/caferacerride1.jpg"
+        },
+        {
+            "id":2,
+            "image":"../img/gallery/caferacerride2.jpg"
+        },
+        {
+            "id":3,
+            "image":"../img/gallery/caferacerride3.jpg"
+        },
+        {
+            "id":4,
+            "image":"../img/gallery/caferacerride4.jpg"
+        },
+        {
+            "id":5,
+            "image":"../img/gallery/caferacerride5.jpg"
+        },
+        {
+            "id":6,
+            "image":"../img/gallery/caferacerride6.jpg"
+        },
+        {
+            "id":7,
+            "image":"../img/gallery/caferacerride7.jpg"
+        },
+        {
+            "id":8,
+            "image":"../img/gallery/caferacerride8.jpg"
+        },
+        {
+            "id":9,
+            "image":"../img/gallery/caferacerride9.jpg"
+        },
+        {
+            "id":10,
+            "image":"../img/gallery/caferacerride10.jpg"
+        },
+        {
+            "id":11,
+            "image":"../img/gallery/caferacerride11.jpg"
+        },
+        {
+            "id":12,
+            "image":"../img/gallery/caferacerride12.jpg"
+        }
+    ]
+}
