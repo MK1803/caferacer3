@@ -157,10 +157,11 @@ body {
 
 .cardBtns .addCardBtn {
     width: 50px;
+    font-size: 28px;
     background: none;
     border: none;
     cursor: pointer;
-    fill: #fff;
+    color: #000;
     
 }
 
@@ -173,7 +174,7 @@ body {
     align-items: center;
     border-radius: 5px;
     background: #f96700;
-    color: #000;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
@@ -241,6 +242,12 @@ body {
     margin-top: 40px;
 }
 
+.prods{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 .categories {
     width: 20%;
     position: sticky;
@@ -281,7 +288,6 @@ body {
 
 .cardMain {
     width: 23%;
-    /* height: 240px; */
     padding: 10px;
     border-radius: 5px;
     background: #fff;
@@ -310,6 +316,53 @@ body {
     color: #2b2a2a;
     transition: .3s;
 }
+
+.paginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 221, 221);
+    border: 1px solid #000;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+
+}
+
+
+.paginBtn.active{
+    background-color: #f96700;
+    color: #fff;
+}
+
+.prodPagin{
+    display: flex;
+    width: 100%;
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnNum{
+     border: none;
+     background-color: #f96700;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     color: #fff;
+     font-size: 24px;
+}
+
 
 /* ==== modal ====*/
 
