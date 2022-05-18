@@ -58,6 +58,9 @@ function Basket() {
 
                 <div className="total">
                     Cəmi: {total} ₼
+                    <button className="payModal">
+                        Ödəniş et:
+                    </button>
                 </div>
             </div>
         </>

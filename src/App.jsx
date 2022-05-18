@@ -12,6 +12,7 @@ import "@fancyapps/ui/dist/fancybox.css";
 import Footer from "./components/Footer";
 import NotFound from "./views/NotFound";
 import Contact from "./views/Contact";
+import About from "./views/About";
 
 function App() {
   const dispatch = useDispatch()
@@ -36,6 +37,7 @@ function App() {
         <Route path="/basket" element={<Basket />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />

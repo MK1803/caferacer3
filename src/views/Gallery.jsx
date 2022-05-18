@@ -19,6 +19,7 @@ function Gallery() {
 
     return (
         <div className="container">
+            <h1 className='galleryTitle'>Qalereya</h1>
             <div className="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6 galleryBox">
                 {gallery.map((e, i) => (
                     <a data-fancybox="gallery" href={e.image} key={i} className="galleryCard">

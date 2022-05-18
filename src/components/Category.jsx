@@ -53,8 +53,8 @@ function Category() {
 
     return (
         <>
-            <div className="container produtcsContainer">
-                <div className="categories">
+            <div className="container produtcsContainer mnvh50">
+                <div className="categories ">
                     <ul>
                         <li><Link to="/products">All</Link></li>
                         <li onClick={toTheFirst}><NavLink to="/products/helmets">Helmets</NavLink></li>

@@ -12,22 +12,32 @@
 
 @font-face {
     font-family: "Centurion";
-    src: url(../fonts/Centurion.otf);
+    src: url(../fonts/Nexus.otf);
+}
+@font-face {
+    font-family: "Open";
+    src: url(../fonts/Open.otf);
 }
 
+
+
 html {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 body {
     /* background: linear-gradient(360deg, #211F20 0%, #44403F 100%); */
-    padding-bottom: 250px;
+    /* padding-bottom: 210px; */
     background: #fff;
     color: #000;
-    min-height: 100%;
+    /* min-height: 100%; */
     font-family: 'Centurion', sans-serif;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+}
+
+.mnvh50{
+    min-height: 60vh;
 }
 
 .container {
@@ -179,6 +189,7 @@ body {
     cursor: pointer;
 }
 
+
 .card {
     border: 1px solid #d5d3d3;
     border-radius: 5px;
@@ -189,10 +200,13 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .card:hover {
-    border: 1px solid #f96700;
+    /* border: 1px solid #f96700; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .card p {
@@ -287,8 +301,10 @@ body {
 }
 
 .cardMain {
+    height: 70%;
+    
     width: 23%;
-    padding: 10px;
+    padding: 20px 10px;
     border-radius: 5px;
     background: #fff;
     border: 1px solid #808080;
@@ -559,9 +575,12 @@ body {
 .basketContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 200px;
 }
 
 .basketProd {
+    border-radius: 5px;
     width: 100%;
     border: 1px solid #808080;
     display: flex;
@@ -646,6 +665,12 @@ body {
     justify-content: space-between;
 }
 
+.galleryTitle{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
 /* ===== Footer =====*/
 
 .footer{
@@ -655,11 +680,12 @@ body {
     align-items: center;
     padding-bottom: 20px;
     height: 210px;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* left: 0; */
     width: 100%;
     background: #000;
+    font-family: "Open" !important;    
 }
 
 .footer ul{
@@ -667,13 +693,22 @@ body {
     flex-direction: column;
     /* padding-top: 40px; */
     color: #fff;
+    height: 100%;
+    padding-top: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
-.footer ul li a{
+.footer ul li{
     display: block;
-    margin-top: 13px;
+    padding: 8px 0;
     color: #fff;
     transition: .2s;
+}
+
+
+.footer ul li a{
+    color: #fff;
 }
 .footerForm form label{
     display: flex;
@@ -682,8 +717,12 @@ body {
 
 
 
-.footerForm li{
-    margin-bottom: 10px;
+.footerForm {
+    /* margin-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10px;
     
 }
 .footer li address{
@@ -721,6 +760,7 @@ body {
 
 .foolterLinks{
     padding-top: -10px;
+    margin-top: 20px;
 }
 
 /* ===== contact ===== */
@@ -977,10 +1017,20 @@ body {
 
     .contactForm{
         width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactForm form{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
     }
 
     .contactForm form label input {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -1001,6 +1051,35 @@ body {
 
     .cardMain{
         width: 100%;
+    }
+
+    .basketProd{
+        flex-wrap: wrap;
+    }
+
+    .basketProd img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .basketCardContent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .basketCardContent h1{
+        margin-bottom: 10px;
+    }
+
+    .basketCardContent p{
+        margin-bottom: 10px;
+    }
+
+    .basketBtnDel{
+        margin: 10px 0;
     }
     
 }
@@ -1024,7 +1103,8 @@ body {
     }
 
     .footer {
-        height: auto;
+        height: 460px;
     }
+    
     
 }
