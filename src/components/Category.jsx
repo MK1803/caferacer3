@@ -12,7 +12,7 @@ import {MdNavigateNext, MdNavigateBefore} from 'react-icons/md'
 function Category() {
     const { category } = useParams()
     const [products, setProducts] = useState({ category: [] });
-    const [productsPerPage] = useState(3)
+    const [productsPerPage] = useState(8)
     const [currentPage, setCurrentPage] = useState(1)
 
 

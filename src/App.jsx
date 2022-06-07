@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
 import { useDispatch } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import './assets/css/style.css'
@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import NotFound from "./views/NotFound";
 import Contact from "./views/Contact";
 import About from "./views/About";
+import Detailed from "./views/Detailed";
 
 function App() {
   const dispatch = useDispatch()
@@ -27,9 +28,12 @@ function App() {
   const closeDrop = () => {
     setBurger(false)
   }
+
+  
+  
   return (
-    <div onClick={() => closeDrop()}>
-      <Header />
+    <div onClick={() => closeDrop()} >
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
@@ -39,6 +43,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<NotFound />} />
+        <Route path="/product/:id" element={<Detailed />} />
       </Routes>
       <Footer />
     </div>

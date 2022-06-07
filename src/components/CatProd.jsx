@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import { useSelector, useDispatch } from 'react-redux';
 import { Pagination, Navigation } from "swiper";
 import { CgShoppingCart } from 'react-icons/cg';
+import {Link} from 'react-router-dom'
 
 
 function CatProd({products}) {
@@ -27,8 +28,6 @@ function CatProd({products}) {
         setArrModal([])
     }
     const addToBasket = (id) => {
-
-        console.log(basket.length + 1);
         let check = basket.some((e) => e.id === id)
         if (check) {
             dispatch({ type: "INC", payload: id })
@@ -53,7 +52,8 @@ function CatProd({products}) {
                             <p>{e.description}</p>
                             <p>{e.price} ₼</p>
                             <div className="cardBtns">
-                                <button className="btnMore" onClick={() => openModal(e)}>More...</button>
+                                {/* <button className="btnMore" onClick={() => openModal(e)}>More...</button> */}
+                                <Link className="btnMore" to={`/product/${e.id}`}>Daha çox...</Link>
                                 <button className="addCardBtn" onClick={() => addToBasket(e.id, e.count, e.price)}><CgShoppingCart /></button>
                             </div>
                         </div>
@@ -62,37 +62,6 @@ function CatProd({products}) {
             </div>
 
 
-            <div className={modal ? "more" : "more active"}>
-                <div className={modal ? "moreContent" : "moreContent active"}>
-                    {arrModal.map((e, i) => (
-                        <div className="moreWrap" key={i}>
-                            <button className="closeModal" onClick={() => closeModal()}><img src={close} alt="" /></button>
-                            <div className="moreSlider">
-                                <Swiper
-                                    pagination={{
-                                        type: "progressbar",
-                                    }}
-                                    navigation={true}
-                                    modules={[Pagination, Navigation]}
-                                    className="mySwiper"
-                                >
-                                    <SwiperSlide><img src={e.image} alt="" className='moreImg' /></SwiperSlide>
-                                    <SwiperSlide><img src={e.image2} alt="" className='moreImg' /></SwiperSlide>
-                                </Swiper>
-                            </div>
-                            <div className="moreInfo">
-                                <h1>{e.title}</h1>
-                                <h2>{e.description}</h2>
-                                <h3>Price: {e.price}₼</h3>
-                                <div className="moreCart">
-                                    <button className="addCardBtn" onClick={() => addToBasket(e.id, e.count, e.price)}><img src={cart} alt="" /></button>
-
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
 
         </>
     )
