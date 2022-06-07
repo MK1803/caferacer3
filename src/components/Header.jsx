@@ -47,9 +47,6 @@ function Header() {
             <li><NavLink to="/about">Haqqımızda</NavLink></li>
             <li><NavLink to="/contact">Əlaqə</NavLink></li>
             <li><NavLink to="/basket" className='busketBtn'><CgShoppingCart /></NavLink>
-            <div className="basketNum">
-              basket.length
-            </div>
             </li>
           </ul>
         </div>

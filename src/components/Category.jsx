@@ -56,11 +56,11 @@ function Category() {
             <div className="container produtcsContainer mnvh50">
                 <div className="categories ">
                     <ul>
-                        <li><Link to="/products">All</Link></li>
-                        <li onClick={toTheFirst}><NavLink to="/products/helmets">Helmets</NavLink></li>
-                        <li onClick={toTheFirst}><NavLink to="/products/jackets">Jackets</NavLink></li>
-                        <li onClick={toTheFirst}><NavLink to="/products/pants">Pants</NavLink></li>
-                        <li onClick={toTheFirst}><NavLink to="/products/shoes">Shoes</NavLink></li>
+                        <li><Link to="/products">Hamısı</Link></li>
+                        <li onClick={toTheFirst}><NavLink to="/products/helmets">Dəbilqələr</NavLink></li>
+                        <li onClick={toTheFirst}><NavLink to="/products/jackets">Gödəkçələr</NavLink></li>
+                        <li onClick={toTheFirst}><NavLink to="/products/pants">Şalvar</NavLink></li>
+                        <li onClick={toTheFirst}><NavLink to="/products/shoes">Ayaqqabılar</NavLink></li>
                     </ul>
                 </div>
 

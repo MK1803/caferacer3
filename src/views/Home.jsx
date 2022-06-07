@@ -45,36 +45,18 @@ function Home() {
           <SwiperSlide>
             <div className="sliderContainer">
               <img src={homeSlide1} alt="" className="homeSlideImg" />
-              <div className="sliderText">
-                <h1>Hər bir sürücü bu hissi bilir.</h1>
-                <p>İkitəkərli özü hərəkət edən avtomobillər XIX əsrin 60-cı illərində yaranmağa başladı. Həmin vaxtda yeganə əlverişli güc qurğusu - artıq ikitəkərli heyət üçün kompakt quraşdırılması kifayət qədər asan ola bilərdi. Lakin kiçik güclü həcm (Kouplend motosikletinin (1884) buxar mühərriki cəmi 9 kq, 0,25 at gücündə güclənmişdir), buxarın uzun müddətli yaranmasının təcrübəsizliyi üzündən...</p>
-                <a href="/about">Oxu</a>
-              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide><div className="sliderContainer">
             <img src={homeSlide2} alt="" className="homeSlideImg" />
-            <div className="sliderText">
-              <h1>Hər bir sürücü bu hissi bilir.</h1>
-              <p>İkitəkərli özü hərəkət edən avtomobillər XIX əsrin 60-cı illərində yaranmağa başladı. Həmin vaxtda yeganə əlverişli güc qurğusu - artıq ikitəkərli heyət üçün kompakt quraşdırılması kifayət qədər asan ola bilərdi. Lakin kiçik güclü həcm (Kouplend motosikletinin (1884) buxar mühərriki cəmi 9 kq, 0,25 at gücündə güclənmişdir), buxarın uzun müddətli yaranmasının təcrübəsizliyi üzündən...</p>
-              <a href="/about">Oxu</a>
-            </div>
+
           </div></SwiperSlide>
           <SwiperSlide><div className="sliderContainer">
             <img src={homeSlide3} alt="" className="homeSlideImg" />
-            <div className="sliderText">
-              <h1>Hər bir sürücü bu hissi bilir.</h1>
-              <p>İkitəkərli özü hərəkət edən avtomobillər XIX əsrin 60-cı illərində yaranmağa başladı. Həmin vaxtda yeganə əlverişli güc qurğusu - artıq ikitəkərli heyət üçün kompakt quraşdırılması kifayət qədər asan ola bilərdi. Lakin kiçik güclü həcm (Kouplend motosikletinin (1884) buxar mühərriki cəmi 9 kq, 0,25 at gücündə güclənmişdir), buxarın uzun müddətli yaranmasının təcrübəsizliyi üzündən...</p>
-              <a href="/about">Oxu</a>
-            </div>
+
           </div></SwiperSlide>
           <SwiperSlide><div className="sliderContainer">
             <img src={homeSlide4} alt="" className="homeSlideImg" />
-            <div className="sliderText">
-              <h1>Hər bir sürücü bu hissi bilir.</h1>
-              <p>İkitəkərli özü hərəkət edən avtomobillər XIX əsrin 60-cı illərində yaranmağa başladı. Həmin vaxtda yeganə əlverişli güc qurğusu - artıq ikitəkərli heyət üçün kompakt quraşdırılması kifayət qədər asan ola bilərdi. Lakin kiçik güclü həcm (Kouplend motosikletinin (1884) buxar mühərriki cəmi 9 kq, 0,25 at gücündə güclənmişdir), buxarın uzun müddətli yaranmasının təcrübəsizliyi üzündən...</p>
-              <a href="/about">Oxu</a>
-            </div>
           </div></SwiperSlide>
         </Swiper>
       </div>
